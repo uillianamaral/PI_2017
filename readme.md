@@ -1,1 +1,1 @@
-#Aplicativo para supermercado
+# Aplicativo para supermercado
