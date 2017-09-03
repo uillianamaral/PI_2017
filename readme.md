@@ -1,4 +1,4 @@
-#Aplicativo Mobile (Android,IPhone) supermecado.
+# Aplicativo Mobile (Android,IPhone) supermecado.
 
 ### Objetivo Principal
 
