@@ -19,5 +19,17 @@ acabando com e necessidade de você sair do conforto de seu lar.
 
 #### Setembro
 
-* Criação do sistema web 
-* Criação de toda a interface do app.
+* Criação apenas do layout do sistema web para cadastro dos produtos e recebimento dos pedidos de compras.
+* Criação de toda a interface do app mas sem as suas devidas funcionalidades.
+
+
+#### Aplicativo Android
+
+
+#### Aplicativo Iphone
+
+
+#### Sistema Web
+
+
+#### Ferramentas Utilizadas
