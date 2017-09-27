@@ -22,6 +22,17 @@ acabando com e necessidade de você sair do conforto de seu lar.
 * Criação apenas do layout do sistema web para cadastro dos produtos.
 * Criação de toda a interface do app mas sem as suas devidas funcionalidades.
 
+#### Outubro
+
+#####Parte sistema web
+
+*Area de login
+*Area de recebimento de produtos 
+*Area de graficos (lucro , estoque, etc)
+*Area de ofertas 
+*Area de clientes cadastrados
+
+#####Parte App Android e IOS
 
 #### Aplicativo Android
 
