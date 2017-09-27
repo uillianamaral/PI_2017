@@ -19,7 +19,7 @@ acabando com e necessidade de você sair do conforto de seu lar.
 
 #### Setembro
 
-* Criação apenas do layout do sistema web para cadastro dos produtos e recebimento dos pedidos de compras dos clientes.
+* Criação apenas do layout do sistema web para cadastro dos produtos.
 * Criação de toda a interface do app mas sem as suas devidas funcionalidades.
 
 
