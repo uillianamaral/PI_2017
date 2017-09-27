@@ -1,0 +1,149 @@
+a:hover{
+	text-decoration: none;
+}
+
+.navbar{
+	background: #c20808;
+	padding: 15px 0px;
+	border-bottom: #c20808  solid 1px;
+}
+
+.navbar-brand > img{
+	width: 120px;
+}
+
+.nav > li > a{
+	color: #ffffff;
+	font-weight: bold;
+	border-radius: 3px;
+}
+
+.nav > li > a:hover, .nav > li > a:focus{
+	background-color: #ad2626 ;
+	color: #ffffff;
+}
+
+.navbar-brand{
+	padding: 0px;
+}
+
+.icon-bar{
+	background: #ffffff;
+}
+
+.navbar-toggle{
+	border-color: #ffffff;
+}
+
+.carousel{
+	margin-top: 80px;
+}
+
+.lancamentos{
+	margin-top: 20px;
+
+}
+
+.lancamentos > img{
+	text-align: center;
+	width: 50%;
+	margin: auto;
+	display: block;
+	/*position: relative;
+	left: 30%;*/
+	border-radius: 50%;
+}
+
+.lancamentos > h2{
+	text-align: center;
+	color: #2c7873;
+}
+
+.lancamentos > p{
+	text-align: justify;
+}
+
+.justificado{
+	text-align: justify;
+}
+
+video{
+	width: 100%;
+	height: auto;
+}
+
+.trailler{
+	margin: auto;
+	display: block;
+}
+
+footer{
+	background-color: #c20808;
+	min-height: 200px;
+}
+
+.contato{
+	color: #ffffff;
+}
+
+.social > h3{
+	text-align: center;
+	color: #ffffff;
+}
+
+.social > ul{
+	list-style: none;
+	padding: 0px;
+	text-align: center;
+}
+
+.social > ul > li{
+	display: inline;
+
+}
+
+.social > ul > li > a{
+	color: #082725;
+}
+
+.social > ul > li > a:hover{
+	color:#2C3E50 ;
+}
+
+.mais > h3{
+	color: #ffffff;
+	text-align: center;
+}
+
+.mais > ul{
+	list-style: none;
+	padding: 0px;
+	text-align: center;
+}
+
+.mais > ul > li > a{
+	color: #ffffff;
+}
+
+.mais > ul > li > a:hover{
+	color:#082725 ;
+}
+
+
+.copyright{
+	background: #b30404;
+	color: #ffffff;
+	padding: 10px 0px;
+	text-align: center;
+	text-shadow: 2px 2px #000000;
+	width: 100%;
+}
+.cadastro > h1{
+	margin-bottom: 10px;
+	text-align: center;
+	font-family: "San_Francisco";
+}
+.cadastro{
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
