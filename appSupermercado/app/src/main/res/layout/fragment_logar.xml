@@ -12,31 +12,19 @@
         android:layout_height="match_parent"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:background="@android:color/background_light">
+        android:background="@drawable/logar">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
-            <TextView
-                android:id="@+id/textView"
-                android:layout_width="90dp"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="135dp"
-                android:layout_marginTop="30dp"
-                android:text="Login"
-                android:textAlignment="center"
-                android:textColor="@android:color/background_dark"
-                android:textSize="36sp"
-                android:textStyle="bold|italic" />
-
             <EditText
                 android:id="@+id/usuarioLogar"
                 android:layout_width="300dp"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="30dp"
-                android:layout_marginTop="30dp"
+                android:layout_marginTop="200dp"
                 android:ems="10"
                 android:hint="Usuário"
                 android:inputType="textPersonName" />
@@ -74,6 +62,7 @@
                 android:id="@+id/textView3"
                 android:layout_width="302dp"
                 android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
                 android:layout_marginLeft="45dp"
                 android:layout_marginTop="35dp"
                 android:padding="10dp"

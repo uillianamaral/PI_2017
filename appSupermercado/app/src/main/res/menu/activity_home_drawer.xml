@@ -5,28 +5,33 @@
 
         <item
             android:id="@+id/login"
-            android:icon="@drawable/login"
+            android:icon="@drawable/icone_logar"
             android:title="Logar"/>
 
         <item
             android:id="@+id/cadastro"
-            android:icon="@drawable/cadastro"
+            android:icon="@drawable/icone_cadastrar"
             android:title="Cadastrar" />
 
         <item
             android:id="@+id/carrinho"
-            android:icon="@drawable/carrinho"
+            android:icon="@drawable/icone_carrinho"
             android:title="Carrinho" />
 
         <item
             android:id="@+id/produtos"
-            android:icon="@drawable/produtos"
-            android:title="Produtos" />
+            android:icon="@drawable/icone_produtos"
+            android:title="Produtos"/>
 
         <item
             android:id="@+id/ofertas"
-            android:icon="@drawable/promocao"
+            android:icon="@drawable/icone_promocao"
             android:title="Ofertas" />
+
+        <item
+            android:id="@+id/deslogar"
+            android:icon="@drawable/icone_sair"
+            android:title="Deslogar" />
 
     </group>
 

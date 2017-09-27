@@ -14,6 +14,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class Home extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
@@ -31,14 +32,14 @@ public class Home extends AppCompatActivity
                 add(R.id.frameLayout, new Ofertas()).
                 commit();
 
-        ImageView fab = (ImageView) findViewById(R.id.fab);
+        /*ImageView fab = (ImageView) findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
                         .setAction("Action", null).show();
             }
-        });
+        });*/
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
@@ -115,12 +116,16 @@ public class Home extends AppCompatActivity
                     commit();
 
         } else if (id == R.id.ofertas) {
-            getSupportFragmentManager().
-                    beginTransaction().
-                    replace(R.id.frameLayout, new Ofertas()).
-                    commit();
+        getSupportFragmentManager().
+                beginTransaction().
+                replace(R.id.frameLayout, new Ofertas()).
+                commit();
 
-        }
+        } else if (id == R.id.deslogar) {
+
+            Toast.makeText(Home.this, "Você ainda não está logado!", Toast.LENGTH_LONG).show();
+
+    }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);

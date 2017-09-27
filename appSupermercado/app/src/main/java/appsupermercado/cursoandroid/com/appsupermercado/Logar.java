@@ -7,7 +7,10 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
+import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.Toast;
 
 
 /**
@@ -16,9 +19,13 @@ import android.widget.TextView;
 public class Logar extends Fragment {
 
     private TextView linkCadastrar;
+    private EditText usuarioLoagr;
+    private EditText senhaLogar;
+    private Button login;
 
     public Logar() {
         // Required empty public constructor
+
     }
 
 
@@ -38,6 +45,30 @@ public class Logar extends Fragment {
                         beginTransaction().
                         replace(R.id.frameLayout, new Cadastrar()).
                         commit();
+            }
+        });
+
+        usuarioLoagr = (EditText) view.findViewById(R.id.usuarioLogar);
+        senhaLogar = (EditText) view.findViewById(R.id.senhaLogar);
+
+        final String textoUsuario = usuarioLoagr.getText().toString();
+        final String textoSenha = senhaLogar.getText().toString();
+
+        login = (Button) view.findViewById(R.id.login);
+
+        login.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                if(textoUsuario.isEmpty() || textoSenha.isEmpty()){
+                    Toast.makeText(getActivity(), "Campo(s) vazios!", Toast.LENGTH_SHORT).show();
+                    usuarioLoagr.setText("");
+                    senhaLogar.setText("");
+
+                }else{
+                    Toast.makeText(getActivity(), "Logado com sucesso!", Toast.LENGTH_SHORT).show();
+
+                }
             }
         });
 
